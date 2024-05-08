@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(8, 96, 74);
+    color: white ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(5, 117, 89, 0.702);
+    border-radius: 50%;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+}
+.left{
+    font-size: 1.9rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 30px 0 ;
+    
+}
+.leftsection{
+    font-size: 3rem;
+}
+.name{
+    color: rgba(0, 0, 0, 0.671);
+}
+#element{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0;
+    height: 1.2px;
+    background-color:rgba(0, 0, 0, 0.671) ;
+    margin:40px 84px ;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.secondsection .work{
+    color:rgb(4, 55, 26);;
+}
+.secondsection .box {
+    display: flex;
+    background-color: rgb(255, 255, 255) ;
+    width: 86vw;
+    height: 2px ;
+    margin: 56px 0;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(122, 230, 100);
+    margin: 0 100px;
+}
+
+.image{
+    width: 70px;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+}
+
+.vertical-title{
+    margin-left: 1.1rem;
+    font-size: 1.59rem;
+    margin-top: 0.5rem;
+    color: rgb(4, 55, 26);
+}
+.vertical-desc{
+   
+    margin-left: 0.4rem;
+    margin-top: 15px;
+    width: 150px;
+    font-size: 15px;
+
+}
+
+.vertical-title{
+    margin-left: 1.1rem;
+    font-size: 1.59rem;
+    margin-top: 0.5rem;
+    color: rgb(4, 55, 26);
+    margin-left: 0.4rem;
+}
+.vertical-desc{
+    position: relative;
+    margin-left: 0.4rem;
+    margin-top: 15px;
+    width: 150px;
+    font-size: 15px;
+}
+
+#title {
+    margin-top: 1.1rem;
+}
+#title1{
+    margin-top: 1.1rem;
+}
+
+.footer{
+   padding-top: 2px;
+    margin-left: 7%;   
+}
+.hr{
+    border: 0;
+    height: 1.2px;
+    background-color:rgba(0, 0, 0, 0.671) ;
+    margin:40px 84px ;
+    margin-top: 25%;
+    padding: top 4%;;
+}
+
+.footer-name {
+    margin-left: 1.1rem;
+    font-size: 1.59rem;
+    margin-top: 0.5rem;
+    color: rgb(1, 27, 13);
+    margin-left: 0.4rem;
+    display: flex;    
+}
+#footer-name{
+    color: aliceblue;
+    font-size: small;
+    margin-left: 20%;
+}
